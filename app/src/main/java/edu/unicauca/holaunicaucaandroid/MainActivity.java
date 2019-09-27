@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
 
     @Override
     public void onClick(View view) {
-
-        
+        //updateTime();
     }
 }
