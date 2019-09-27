@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
         btn.setOnClickListener(this);
         updateTime();
         setContentView(btn);
+        btn.setText("Bienvenido a tu primera app");
     }
 
     private void updateTime() {
@@ -33,5 +34,6 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
     @Override
     public void onClick(View view) {
         updateTime();
+
     }
 }
